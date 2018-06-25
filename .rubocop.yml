@@ -1,0 +1,29 @@
+AllCops:
+  TargetRubyVersion: 2.3.6
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - 'spec/*.rb'
+Style/Documentation:
+  Exclude:
+    - 'actions/*.rb'
+    - 'spec/*.rb'
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'Gemfile'
+    - 'Rakefile'
+Style/HashSyntax:
+  Exclude:
+    - 'Rakefile'
+Style/MixinUsage:
+  Exclude:
+    - 'spec/*.rb'
+Style/PercentLiteralDelimiters:
+  Exclude:
+    - 'Rakefile'
+Style/RegexpLiteral:
+  EnforcedStyle: slashes
+  AllowInnerSlashes: true
+Style/SymbolArray:
+  Exclude:
+    - 'Rakefile'
